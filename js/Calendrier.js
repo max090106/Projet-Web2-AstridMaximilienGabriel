@@ -79,7 +79,7 @@ nextMonthBtn.addEventListener('click', () => {
 
 calendarDates.addEventListener('click', (e) => {
   if (e.target.textContent !== '') {
-    alert(`You clicked on ${e.target.textContent} ${months[currentMonth]} ${currentYear}`);
+    alert(`You clicked on your ass bitch`);
   }
 });
 
