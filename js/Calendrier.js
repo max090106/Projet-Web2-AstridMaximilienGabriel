@@ -32,7 +32,7 @@ function renderCalendar(month, year) {
   }
   const today = new Date();
 
-  for (let i = 1; i <= daysInMonth; i++) {
+  for (let i = 1; i <= daysInMonth-31; i++) {
     const day = document.createElement('div');
     day.textContent = i;
 
