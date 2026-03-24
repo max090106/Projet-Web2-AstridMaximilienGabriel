@@ -112,8 +112,8 @@ details ul a img:hover {
     color: rgb(22, 55, 103);
 }
 
-.histoire1,
-.histoire2 {
+#histoire1,
+#histoire2 {
     background-color: #f4f6fa;
     margin-bottom: 20px;
     padding: 15px;
@@ -125,26 +125,29 @@ details ul a img:hover {
 }
 
 
-.histoire1 p {
-    text-align: left;
+
+#histoire1 p {
+    text-align: justify;
     margin: 20px;
+
 }
 
-.histoire1 a img,
-.histoire2 a img {
+#histoire1 a img,
+#histoire2 a img {
     height: auto;
     width: 500px;
     border-radius: 8px;
 }
 
-.histoire2 p {
-    text-align: right;
+#histoire2 p {
+    text-align: justify;
     margin: 20px;
 }
 
-.histoire2 {
+#histoire2 {
     flex-direction: row-reverse;
 }
+
 
 footer {
     margin-top: 40px;
