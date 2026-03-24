@@ -1,111 +1,32 @@
 <!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Département informatique de l'efrei</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<body>
-    <header>
-        <h1>
-            <img src="../img/logo-efrei.png" id="logo" width="430" height="120">
-            DEPARTEMENT INFORMATIQUE DE L'EFREI
-        </h1>
-        
-        <nav>
-            <a href="Accueil.html">Accueil</a>
-            <a href="Formations.html">Formations</a>
-            <a href="Temoignages.html">Témoignages</a>
-            <a href="Apropos.html">A propos</a>
-            <a href="Equipes.html">Equipes</a>
-        </nav>
-    </header>
-    <main>
-
-        <h1>Calendrier Professeur 1</h1>
-
-        <section id = cld>
-            <section id="entete_cld">
-                <h1 id = cldT>JANVIER</h1>
-                <section id="avant_apres">
-                    <button id = "avant" class = "btn_cld"></button>
-                    <button id = "apres" class = "btn_cld" style="margin-left: 20%;"></button>
-
-                </section>
-
-            </section>
-            <section id="cldObjet">
-                <div id ="jour_cld">
-                    <div class="jour_cld">Lundi</div>
-                    <div class="jour_cld">Mardi</div>
-                    <div class="jour_cld">Mercredi</div>
-                    <div class="jour_cld">Jeudi</div>
-                    <div class="jour_cld">Vendredi</div>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dynamic Calendar</title>
+        <link rel="stylesheet" href="../css/styles_cld.css">
+    </head>
+    <body>
+        <div class="calendar">
+            <div class="calendar-header">
+                <button id="prev-month">‹</button>
+                <div id="month-year"></div>
+                <button id="next-month">›</button>
+            </div>
+            <div class="calendar-body">
+                <div class="calendar-weekdays">
+                    <div>Sun</div>
+                    <div>Mon</div>
+                    <div>Tue</div>
+                    <div>Wed</div>
+                    <div>Thu</div>
+                    <div>Fri</div>
+                    <div>Sat</div>
                 </div>
-                <div id="semaine1_cld">
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
+                <div class="calendar-dates">
+                    <!-- Dates will be populated here -->
                 </div>
-                <div id="semaine2_cld" class="semaine_cld">
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                </div>
-                <div id="semaine3_cld" class="semaine_cld">
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                </div>
-                <div id="semaine4_cld" class="semaine_cld">
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                </div>
-                <div id="semaine5_cld" class="semaine_cld">
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                </div>
-                <div id="semaine_cld" class="semaine_cld">
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                    <div class = "Cld_Case"></div>
-                </div>
-        </section>
-        
-    </main>
-    <footer>
-        <p>Mentions légales</p>
-        <p>Astrid BAERT, Gabriel LALLIER, Maximilien SOURIS</p>
-        <a href="Contact.html">Contact</a>
-    </footer>
-</body>
+            </div>
+        </div>
+        <script src="../js/Calendrier.js"></script>
+    </body>
 </html>
