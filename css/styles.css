@@ -255,7 +255,11 @@ fieldset legend {
         align-items: center;
     }
 
+
     #logo {
         width: 200px;
     }
+}
+ul > details {
+    width: 100%;
 }
