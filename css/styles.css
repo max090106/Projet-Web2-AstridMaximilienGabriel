@@ -267,3 +267,21 @@ ul > details {
     width: 100%;
 }
 
+#Bienvenu {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(22, 55, 103);
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+    margin: 20px;
+    font-size: large;
+}
+
+p a {
+    color: rgb(22, 55, 103);
+    font-weight: bold;
+    text-decoration: none;
+}
