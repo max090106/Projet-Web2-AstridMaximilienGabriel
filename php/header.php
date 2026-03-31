@@ -5,10 +5,10 @@
     </h1>
     
     <nav>
-        <a href="Accueil.html">Accueil</a>
-        <a href="Formations.html">Formations</a>
-        <a href="Temoignages.html">Témoignages</a>
-        <a href="Apropos.html">A propos</a>
-        <a href="Equipes.html">Equipes</a>
+        <a href="Accueil.php">Accueil</a>
+        <a href="Formations.php">Formations</a>
+        <a href="Temoignages.php">Témoignages</a>
+        <a href="Apropos.php">A propos</a>
+        <a href="Equipes.php">Equipes</a>
     </nav>
 </header>

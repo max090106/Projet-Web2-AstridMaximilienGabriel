@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Département informatique de l'efrei</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="../js/formations.js"></script>
+</head>
+
+<body>
+    <?php include ("header.php"); ?>
+
+    <main>
+        <section id="formations">
+            <h2>Nos Formations</h2>
+
+            <div class="list">
+                <ul>
+
+                    <details>
+                        <summary>Programme Grande Ecole</summary>
+                        <ul>
+                            <details>
+                                <summary>Prépas Intégrées</summary>
+                                <ul>
+                                    <a href="https://www.efrei.fr/prepas-integrees/">Classique</a>
+                                    <a href="https://www.efrei.fr/prepas-integrees/">International</a>
+                                    <a href="https://www.efrei.fr/prepas-integrees/">Plus / Maths Plus</a>
+                                    <a href="https://www.efrei.fr/prepas-integrees/">Rentrée Décalée</a>
+                                </ul>
+                            </details>
+                            <details>
+                                <summary>Cycle Ingénieur</summary>
+                                <ul>
+                                    <a href="https://www.efrei.fr/cycle-ingenieur/">Ingénieur Première année</a>
+                                    <a href="https://www.efrei.fr/cycle-ingenieur/">Ingénieur Deuxièmme année</a>
+                                    <a href="https://www.efrei.fr/cycle-ingenieur/">Ingénieur Troisième année</a>
+                                </ul>
+                            </details>
+                            <details>
+                                <summary>Majeurs de spécialisation</summary>
+                                <ul>
+                                    <a href="https://www.efrei.fr/filiere-data-science/">Data Science</a>
+                                    <a href="https://www.efrei.fr/filiere-information-technology/">Information Technology</a>
+                                    <a href="https://www.efrei.fr/filiere-securite-et-reseaux/">Sécurité et Réseaux</a>
+                                    <a href="https://www.efrei.fr/filiere-systemes-embarques/">Systèmes eembarqués</a>
+                                    <a href="https://www.efrei.fr/formation/filieres-en-apprentissage/">Alternance</a>
+                                </ul>
+                            </details>
+                        </ul>
+                    </details>
+
+                    <details>
+                        <summary>Programme Technologie & Numérique</summary>
+                        <ul>
+                            <details>
+                                <summary>BTS</summary>
+                                <ul>
+                                    <a href="">SIO</a>
+                                </ul>
+                            </details>
+                        </ul>
+                        <ul>
+                            <details>
+                                <summary>Bachelors /  Grades Licenses</summary>
+                                <ul>
+                                    <a href="https://www.efrei.fr/formation/bachelor-informatique-grade-de-licence/">Bachelor / Grades License : Informatique</a>
+                                </ul>
+                                <ul>
+                                    <a href="https://www.efrei.fr/bachelor-cybersecurite-reseaux/">Bachelor / Grades License : Cyber sécurité & réseaux</a>
+                                </ul>
+                                <ul>
+                                    <a href="https://www.efrei.fr/formation/bachelor-developpeur-web-ia/">Développeur web & IA</a>
+                                </ul>
+                                <ul>
+                                    <a href="https://www.efrei.fr/bachelor-cybersecurite-ethical-hacking/">Cybersécuritté & ethical hacking</a>
+                                </ul>
+                            </details>
+                        </ul>
+                        <ul>
+                            <details>
+                                <summary>Mastères</summary>
+                                <ul>
+                                    <a href="https://www.efrei.fr/formation/mastere-dev-manager-full-stack/">Mastère Dev. manager full stack</a>
+                                </ul>
+                                <ul>
+                                    <a href="https://www.efrei.fr/formation/mastere-data-engineering-ia/">Mastère Data engineering & IA</a>
+                                </ul>
+                                <ul>
+                                    <a href="https://www.efrei.fr/mastere-cybersecurite/">Mastère Cybersécurité</a>
+                                </ul>
+                                <ul>
+                                    <a href="https://www.efrei.fr/mastere-cybersecurite-management/">Mastère Cybersécurité & Management</a>
+                                </ul>
+                                <ul>
+                                    <a href="https://www.efrei.fr/formation/mastere-green-it/">Mastère Green IT</a>
+                                </ul>
+                            </details>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>Programme Digital & Management</summary>
+                        <ul>
+                            <details>
+                                <summary>BTS</summary>
+                                <ul>
+                                    <a href="https://www.efrei.fr/bts-communication/">Communication</a>
+                                </ul>
+                            </details>
+                        </ul>
+                        <ul>
+                            <details>
+                                <summary>Bachelors /  Grades Licenses</summary>
+                                <ul>
+                                    <a href="https://www.efrei.fr/formation/bachelor-marketing-digital-communication/">Bachelor / Grades License : Bachelor Data marketing & IA</a>
+                                </ul>
+                                <ul>
+                                    <a href="https://www.efrei.fr/formation/bachelor-international-communication-technology/">Marketing digital & communication</a>
+                                </ul>
+                                <ul>
+                                    <a href="https://www.efrei.fr/formation/bachelor-data-marketing-et-ia/">Intenational Communication & Technology</a>
+                                </ul>
+                                <ul>
+                                    <a href="https://www.efrei.fr/formation/bachelor-chef-de-projet-e-commerce/">Chef de projet e-commerce</a>
+                                </ul>
+                            </details>
+                        </ul>
+                        <ul>
+                            <details>
+                                <summary>Masters / Mastères</summary>
+                                <ul>
+                                    <a href="https://www.efrei.fr/formation/mastere-ux-design/">Mastère UX Design</a>
+                                </ul>
+                                <ul>
+                                    <a href="https://www.efrei.fr/formation/mastere-communication-strategie-digitale/">Mastère Communication & stratégie digitales</a>
+                                </ul>
+                                <ul>
+                                    <a href="https://www.efrei.fr/formation/mastere-marketing-digital-management/">Mastère Marketing digital & management</a>
+                                </ul>
+                                <ul>
+                                    <a href="https://www.efrei.fr/formation/mastere-management-data-ia/">Mastère Management, data & IA</a>
+                                </ul>
+                                <ul>
+                                    <a href="https://www.efrei.fr/formation/master-marketing-technologies-digitales/">Master Marketing & technologies digitales</a>
+                                </ul>
+                                <ul>
+                                    <a href="https://www.efrei.fr/formation/master-international-communication-management/">Master International communication management</a>
+                                </ul>
+                                <ul>
+                                    <a href="https://www.efrei.fr/formation/master-management-digital-transformation/">Master Mangement & digital transformation</a>
+                                </ul>
+                                <ul>
+                                    <a href="https://www.efrei.fr/formation/master-digital-supply-chain-management/">Master Digital supply chain management</a>
+                                </ul> 
+                            </details>
+                        </ul>
+                    </details>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <?php include ("fotter.php"); ?>
+</body>
