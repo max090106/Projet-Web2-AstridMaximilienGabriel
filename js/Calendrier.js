@@ -54,17 +54,16 @@ renderCalendar(currentMonth, currentYear);
 
 function renderHourCalendar(day) {
   const hourCalendar = document.getElementById('hour-calendar');
-  hourCalendar.innerHTML = ''; // Vide le contenu actuel
-
-  // Titre pour le calendrier horaire
+  hourCalendar.innerHTML = '';
+  const crenauxTitle = document.getElementById('selected-date');
+  crenauxTitle.innerHTML = '';
   const title = document.createElement('h3');
-  title.textContent = `Heures pour le ${day} ${months[currentMonth]} ${currentYear}`;
-  hourCalendar.appendChild(title);
+  title.textContent = `${day} ${months[currentMonth]} ${currentYear}`;
+  crenauxTitle.appendChild(title);
 
-  // Génère les heures de 00:00 à 23:00
-  for (let hour = 0; hour < 24; hour++) {
+  for (let hour = 5; hour < 21; hour++) {
     const hourDiv = document.createElement('div');
-    hourDiv.textContent = `${hour.toString().padStart(2, '0')}:00`;
+    hourDiv.textContent = `${hour.toString().padStart(2)}:00`;
     hourDiv.classList.add('hour-slot');
     hourCalendar.appendChild(hourDiv);
   }
@@ -96,3 +95,9 @@ calendarDates.addEventListener('click', (e) => {
   }
 });
 
+document.getElementById('hour-calendar').addEventListener('click', (e) => {
+  if (e.target.classList.contains('hour-slot')) {
+    const selectedDate = document.getElementById('selected-date').textContent;
+    alert(`Vous avez sélectionné le créneau de ${e.target.textContent} le ${selectedDate}`);
+  }
+});
