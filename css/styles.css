@@ -288,13 +288,58 @@ p a {
 
 
 /*css carroussel */
+.carousel-hid {
+  overflow: hidden;
+  width: 100%;
+}
+
 .track {
   display: flex;
-  gap: 16px;
   transition: transform 0.4s ease;
 }
 
 .slide-resp {
-  min-width: calc((100% - 32px) / 3);
+  min-width: 50%;   /* 2 slides visibles */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
 }
 
+.slide-resp img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.slide-resp p {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.75rem;
+}
+
+.btn-prev,
+.btn-next {
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.btn-prev:hover,
+.btn-next:hover {
+  background: #f0f0f0;
+  border-color: #999;
+}
