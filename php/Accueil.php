@@ -18,6 +18,6 @@
         <p>Nous sommes impatients de vous accueillir au sein de notre communauté à l'EFREI!</p>
     </main>
 
-    <?include ("footer.php"); ?>
+    <?php include ("footer.php"); ?>
 </body>
 </html>

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
+<?php
+$prof = isset($_GET['prof']) ? $_GET['prof'] : "Inconnu";
+?>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>Dynamic Calendar</title>
