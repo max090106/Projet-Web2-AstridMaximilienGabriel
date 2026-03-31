@@ -30,6 +30,6 @@
                 </div>
         </section>
     </main>
-    <?php include ("fotter.php"); ?>
+    <?php include ("footer.php"); ?>
 </body>
 </html>
