@@ -1,4 +1,5 @@
 const calendarDates = document.querySelector('.calendar-dates');
+const calendarhorraire = document.querySelector('.horraire');
 const monthYear = document.getElementById('month-year');
 const prevMonthBtn = document.getElementById('prev-month');
 const nextMonthBtn = document.getElementById('next-month');
@@ -51,6 +52,24 @@ function renderCalendar(month, year) {
 
 renderCalendar(currentMonth, currentYear);
 
+function renderHourCalendar(day) {
+  const hourCalendar = document.getElementById('hour-calendar');
+  hourCalendar.innerHTML = ''; // Vide le contenu actuel
+
+  // Titre pour le calendrier horaire
+  const title = document.createElement('h3');
+  title.textContent = `Heures pour le ${day} ${months[currentMonth]} ${currentYear}`;
+  hourCalendar.appendChild(title);
+
+  // Génère les heures de 00:00 à 23:00
+  for (let hour = 0; hour < 24; hour++) {
+    const hourDiv = document.createElement('div');
+    hourDiv.textContent = `${hour.toString().padStart(2, '0')}:00`;
+    hourDiv.classList.add('hour-slot');
+    hourCalendar.appendChild(hourDiv);
+  }
+}
+
 prevMonthBtn.addEventListener('click', () => {
   currentMonth--;
   if (currentMonth < 0) {
@@ -72,7 +91,8 @@ nextMonthBtn.addEventListener('click', () => {
 
 calendarDates.addEventListener('click', (e) => {
   if (e.target.textContent !== '') {
-    alert(`You clicked on ${e.target.textContent} ${months[currentMonth]} ${currentYear}`);
+    const day = parseInt(e.target.textContent);
+    renderHourCalendar(day);
   }
 });
 
