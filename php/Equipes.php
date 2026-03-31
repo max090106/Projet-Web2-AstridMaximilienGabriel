@@ -161,7 +161,7 @@
             </fieldset>
         </section>
     </main>
-    <?php include ("fotter.php"); ?>
+    <?php include ("footer.php"); ?>
     <script src="../js/Carroussel.js"></script>
 </body>
 
