@@ -261,6 +261,9 @@ input[type="button"]:hover {
     .slide-resp {
         min-width: 250px;
     }
+    .slide-dir {
+        max-width: 250px;
+    }
 }
 
 ul > details {
