@@ -84,6 +84,14 @@ nav a:hover {
     opacity: 0.8;
 }
 
+#logo {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px; 
+    height: auto;
+}
 
 @media (max-width: 400px) {
   .calendar {

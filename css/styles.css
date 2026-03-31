@@ -31,10 +31,10 @@ header h1 {
     left: 20px;
     top: 50%;
     transform: translateY(-50%);
-    width: 200px; 
+    width: 200px;
     height: auto;
 }
- 
+
 /* mettre un ID si y a d autres nav*/
 nav {
     margin-top: 20px;
@@ -132,7 +132,7 @@ details ul a img:hover {
     transform: scale(1.05);
 }
 
-ul > details {
+ul>details {
     width: 100%;
 }
 
@@ -261,7 +261,7 @@ ul > details {
     resize: vertical;
 }
 
-/* ----- Page ACCUEIL (A MODIFIER IMP2RATIVEMENT) ----- */
+/* ----- Page ACCUEIL  ----- */
 
 #Bienvenu {
     text-align: center;
@@ -284,6 +284,13 @@ ul > details {
 
 #imgAccueil {
     border-radius: 10%;
+    width: 85%;
+    margin-left: 100px;
+    transition: transform 0.3s ease;
+}
+
+#imgAccueil :hover {
+    transform: scale(1.02);
 }
 
 
@@ -332,7 +339,7 @@ ul > details {
     text-align: center;
 }
 
-.slide-resp p:hover{
+.slide-resp p:hover {
     color: #e60073;
 }
 
@@ -394,7 +401,7 @@ legend {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     padding: 15px;
     transition: transform 0.3s ease;
-    margin: auto; 
+    margin: auto;
 }
 
 .directeurs:hover {
@@ -409,7 +416,7 @@ legend {
 }
 
 .directeurs p {
-   margin-top: 15px;
+    margin-top: 15px;
     font-size: 14px;
     font-weight: bold;
     color: rgb(22, 55, 103);
@@ -440,7 +447,7 @@ legend {
     }
 
     #logo {
-        width: 120px; 
+        width: 120px;
     }
 
     .slide-resp {
