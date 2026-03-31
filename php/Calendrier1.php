@@ -39,7 +39,7 @@
 
     </div>
     </div>
-    <?php include ("fotter.php"); ?>
+    <?php include ("footer.php"); ?>
     <script src="../js/Calendrier.js"></script>
 </body>
 
