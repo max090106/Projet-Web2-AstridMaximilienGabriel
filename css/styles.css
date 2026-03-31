@@ -262,6 +262,10 @@ fieldset legend {
     #logo {
         width: 200px;
     }
+
+    .slide-resp {
+        min-width: 250px;
+    }
 }
 ul > details {
     width: 100%;
@@ -288,58 +292,145 @@ p a {
 
 
 /*css carroussel */
+/* === CAROUSEL CONTAINER === */
 .carousel-hid {
-  overflow: hidden;
-  width: 100%;
+    overflow: hidden;
+    width: 70%;
+    padding: 20px 0;
+    margin: auto;
 }
 
+/* === TRACK (ligne des cartes) === */
 .track {
-  display: flex;
-  transition: transform 0.4s ease;
+    display: flex;
+    gap: 20px;
+    transition: transform 0.4s ease-in-out;
 }
 
+
+/* === CARD STYLE (slide) === */
 .slide-resp {
-  min-width: 50%;   /* 2 slides visibles */
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem;
-  text-align: center;
+    flex: 0 0 calc(50% - 10px); 
+    max-width: calc(50% - 10px);
+
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    padding: 15px;
+    transition: transform 0.3s ease;
 }
 
+.slide-resp:hover {
+    transform: translateY(-5px);
+}
+
+/* === IMAGE === */
 .slide-resp img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
+/* === TITRE === */
 .slide-resp p {
-  margin-top: 0.5rem;
-  font-size: 0.95rem;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(22, 55, 103);
+    font-size: larger;
 }
 
+/* === LIENS === */
+.slide-resp a {
+    text-decoration: none;
+    color:rgb(22, 55, 103);
+}
+
+.slide-resp a :hover {
+    color: #e60073;
+}
+/* === CONTROLS (flèches) === */
 .controls {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin-top: 0.75rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 15px;
 }
 
 .btn-prev,
 .btn-next {
-  background: transparent;
-  border: 1px solid #ccc;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  font-size: 1.2rem;
-  cursor: pointer;
-  transition: background 0.2s, border-color 0.2s;
+    background-color: rgb(22, 55, 103);
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s;
 }
 
 .btn-prev:hover,
 .btn-next:hover {
-  background: #f0f0f0;
-  border-color: #999;
+    background-color: #e60073;
+}
+
+/* === FIELDSET STYLE (optionnel pour coller au design) === */
+fieldset {
+    border: none;
+    margin-bottom: 40px;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(22, 55, 103);
+}
+
+.directeurs img {
+    border-radius: 20px;
+    width: 100%;
+    margin: auto;
+}
+
+.slide-dir {
+    flex: 0 0 calc(50% - 10px); 
+    max-width: calc(50% - 10px);
+
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    padding: 15px;
+    transition: transform 0.3s ease;
+    margin: auto;
+}
+
+.slide-dir:hover {
+    transform: translateY(-5px);
+}
+
+.slide-dir img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.slide-dir p {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(22, 55, 103);
+    font-size: larger;
+}
+
+.slide-dir a {
+    text-decoration: none;
+    color:rgb(22, 55, 103);
+}
+
+.slide-dir a :hover {
+    color: #e60073;
 }
