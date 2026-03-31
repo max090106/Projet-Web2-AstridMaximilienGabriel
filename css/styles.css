@@ -4,14 +4,12 @@
     box-sizing: border-box;
 }
 
-/* ----- HEADER FOOTER BODY & MAIN -----*/
 body {
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     color: #333;
 }
-
 
 header,
 footer {
@@ -34,8 +32,7 @@ header h1 {
     width: 200px; 
     height: auto;
 }
- 
-/* mettre un ID si y a d autres nav*/
+
 nav {
     margin-top: 20px;
     text-align: center;
@@ -58,27 +55,6 @@ main {
     padding: 40px 20px;
 }
 
-footer {
-    margin-top: 40px;
-}
-
-footer p {
-    margin-bottom: 10px;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-
-/* ----- Page FORMATION -----*/
-
 #formations {
     max-width: 1000px;
     margin: auto;
@@ -89,8 +65,6 @@ footer a:hover {
     margin-bottom: 30px;
     color: rgb(22, 55, 103);
 }
-
-/* si d autres details penser a mettre une id/classe*/
 
 details {
     background-color: #f4f6fa;
@@ -132,18 +106,11 @@ details ul a img:hover {
     transform: scale(1.05);
 }
 
-ul > details {
-    width: 100%;
-}
-
-/* ----- Page TEMOIGNAGES ------*/
-
 #temoignage h2 {
     text-align: center;
     margin-bottom: 30px;
     color: rgb(22, 55, 103);
 }
-
 
 #histoire1,
 #histoire2 {
@@ -178,9 +145,25 @@ ul > details {
     flex-direction: row-reverse;
 }
 
-/* ----- Page CONTACT ------*/
+footer {
+    margin-top: 40px;
+}
 
-#ContactId input[type="button"] {
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+input[type="button"] {
     background-color: #e9eef7;
     color: rgb(22, 55, 103);
     padding: 10px 25px;
@@ -189,11 +172,10 @@ ul > details {
     cursor: pointer;
 }
 
-#ContactId input[type="button"]:hover {
+input[type="button"]:hover {
     background-color: #d8e0ef;
     color: rgb(13, 36, 70);
 }
-
 
 #Infos legend,
 .Contact legend {
@@ -261,7 +243,6 @@ ul > details {
     resize: vertical;
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 768px) {
     nav a {
         display: block;
@@ -280,17 +261,11 @@ ul > details {
     .slide-resp {
         min-width: 250px;
     }
-    .slide-dir {
-        max-width: 250px;
-    }
 }
 
 ul > details {
     width: 100%;
 }
-=======
-/* ----- Page ACCUEIL (A MODIFIER IMP2RATIVEMENT) ----- */
->>>>>>> 32cd2bf10c486f2e6c3017583c4bbf0e9234ef71
 
 #Bienvenu {
     text-align: center;
@@ -299,41 +274,23 @@ ul > details {
     text-decoration: underline;
 }
 
-<<<<<<< HEAD
-p {
-=======
-#AccueilPage p {
->>>>>>> 32cd2bf10c486f2e6c3017583c4bbf0e9234ef71
+#Bienvenu p {
     text-align: center;
     margin: 20px;
     font-size: large;
 }
 
-<<<<<<< HEAD
-p a {
-=======
-#AccueilPage p a {
->>>>>>> 32cd2bf10c486f2e6c3017583c4bbf0e9234ef71
+#Bienvenu p a {
     color: rgb(22, 55, 103);
     font-weight: bold;
     text-decoration: none;
 }
 
-<<<<<<< HEAD
-=======
-#imgAccueil {
-    border-radius: 10%;
-}
->>>>>>> 32cd2bf10c486f2e6c3017583c4bbf0e9234ef71
+/* A changer la page d'accueil*/
 
-/* CSS CARROUSEL */
 
-<<<<<<< HEAD
-/* === CAROUSEL CONTAINER === */
-=======
-/* ---- Page Equipes ------*/
+/* css carousel */
 
->>>>>>> 32cd2bf10c486f2e6c3017583c4bbf0e9234ef71
 .carousel-hid {
     overflow: hidden;
     width: 70%;
@@ -341,14 +298,12 @@ p a {
     margin: auto;
 }
 
-/* === TRACK (ligne des cartes) === */
 .track {
     display: flex;
     gap: 20px;
     transition: transform 0.4s ease-in-out;
 }
 
-/* === CARD STYLE (slide) === */
 .slide-resp {
     flex: 0 0 calc(50% - 10px);
     max-width: calc(50% - 10px);
@@ -363,7 +318,6 @@ p a {
     transform: translateY(-5px);
 }
 
-/* === IMAGE === */
 .slide-resp img {
     width: 100%;
     height: 400px;
@@ -371,26 +325,25 @@ p a {
     border-radius: 20px;
 }
 
-/* === TITRE === */
 .slide-resp p {
     margin-top: 15px;
     font-size: 14px;
     font-weight: bold;
     color: rgb(22, 55, 103);
     font-size: larger;
+    text-align: center;
 }
 
-/* === LIENS === */
+.slide-resp p:hover{
+    color: #e60073;
+}
+
 .slide-resp a {
     text-decoration: none;
     color: rgb(22, 55, 103);
 }
 
-.slide-resp a:hover {
-    color: #e60073;
-}
 
-/* === CONTROLS (flèches) === */
 .controls {
     display: flex;
     justify-content: center;
@@ -415,9 +368,7 @@ p a {
     background-color: #e60073;
 }
 
-/* === FIELDSET (page Equipes) === */
-/* FIX: border:none uniquement pour les fieldsets du trombinoscope,
-   pour ne pas casser #ContactId fieldset sur d'autres pages */
+
 #trombinoscope fieldset {
     border: none;
     margin-bottom: 40px;
@@ -431,25 +382,14 @@ legend {
     color: rgb(22, 55, 103);
 }
 
-<<<<<<< HEAD
-/* === DIRECTEURS === */
-=======
->>>>>>> 32cd2bf10c486f2e6c3017583c4bbf0e9234ef71
+/* === directeurs === */
 .directeurs img {
     border-radius: 20px;
     width: 100%;
     margin: auto;
 }
 
-/* FIX: .slide-dir centrée et visible même avec 1 seule carte.
-   overflow:visible sur son carousel pour que la legend ne soit pas coupée */
-.directeurs .carousel-hid {
-    overflow: visible;
-}
-
-/* FIX: .slide-dir ne duplique plus toutes les propriétés de .slide-resp.
-   On réutilise .slide-resp et on surcharge seulement ce qui diffère. */
-.slide-dir {
+.directeurs {
     flex: 0 0 calc(50% - 10px);
     max-width: calc(50% - 10px);
     background: #ffffff;
@@ -457,58 +397,34 @@ legend {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     padding: 15px;
     transition: transform 0.3s ease;
-    margin: auto; /* FIX: centre la carte quand elle est seule dans le track */
+    margin: auto; 
 }
 
-.slide-dir:hover {
+.directeurs:hover {
     transform: translateY(-5px);
 }
 
-.slide-dir img {
+.directeurs img {
     width: 100%;
     height: 400px;
     object-fit: cover;
     border-radius: 20px;
 }
 
-.slide-dir p {
-    margin-top: 15px;
+.directeurs p {
+   margin-top: 15px;
+    font-size: 14px;
     font-weight: bold;
     color: rgb(22, 55, 103);
     font-size: larger;
+    text-align: center;
 }
 
-.slide-dir a {
+.directeurs a {
     text-decoration: none;
     color: rgb(22, 55, 103);
 }
 
-.slide-dir a:hover {
+.directeurs p:hover {
     color: #e60073;
-<<<<<<< HEAD
 }
-=======
-}
-
-
-/* ------- MEDIA ------ */
-@media screen and (max-width: 768px) {
-    nav a {
-        display: block;
-        margin: 10px 0;
-    }
-
-    details ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #logo {
-        width: 120px; 
-    }
-
-    .slide-resp {
-        min-width: 250px;
-    }
-}
->>>>>>> 32cd2bf10c486f2e6c3017583c4bbf0e9234ef71
