@@ -274,22 +274,23 @@ ul > details {
     text-decoration: underline;
 }
 
-p {
+#Bienvenu p {
     text-align: center;
     margin: 20px;
     font-size: large;
 }
 
-p a {
+#Bienvenu p a {
     color: rgb(22, 55, 103);
     font-weight: bold;
     text-decoration: none;
 }
 
+/* A changer la page d'accueil*/
 
-/* CSS CARROUSEL */
 
-/* === CAROUSEL CONTAINER === */
+/* css carousel */
+
 .carousel-hid {
     overflow: hidden;
     width: 70%;
@@ -297,14 +298,12 @@ p a {
     margin: auto;
 }
 
-/* === TRACK (ligne des cartes) === */
 .track {
     display: flex;
     gap: 20px;
     transition: transform 0.4s ease-in-out;
 }
 
-/* === CARD STYLE (slide) === */
 .slide-resp {
     flex: 0 0 calc(50% - 10px);
     max-width: calc(50% - 10px);
@@ -319,7 +318,6 @@ p a {
     transform: translateY(-5px);
 }
 
-/* === IMAGE === */
 .slide-resp img {
     width: 100%;
     height: 400px;
@@ -327,26 +325,25 @@ p a {
     border-radius: 20px;
 }
 
-/* === TITRE === */
 .slide-resp p {
     margin-top: 15px;
     font-size: 14px;
     font-weight: bold;
     color: rgb(22, 55, 103);
     font-size: larger;
+    text-align: center;
 }
 
-/* === LIENS === */
+.slide-resp p:hover{
+    color: #e60073;
+}
+
 .slide-resp a {
     text-decoration: none;
     color: rgb(22, 55, 103);
 }
 
-.slide-resp a:hover {
-    color: #e60073;
-}
 
-/* === CONTROLS (flèches) === */
 .controls {
     display: flex;
     justify-content: center;
@@ -371,9 +368,7 @@ p a {
     background-color: #e60073;
 }
 
-/* === FIELDSET (page Equipes) === */
-/* FIX: border:none uniquement pour les fieldsets du trombinoscope,
-   pour ne pas casser #ContactId fieldset sur d'autres pages */
+
 #trombinoscope fieldset {
     border: none;
     margin-bottom: 40px;
@@ -387,22 +382,14 @@ legend {
     color: rgb(22, 55, 103);
 }
 
-/* === DIRECTEURS === */
+/* === directeurs === */
 .directeurs img {
     border-radius: 20px;
     width: 100%;
     margin: auto;
 }
 
-/* FIX: .slide-dir centrée et visible même avec 1 seule carte.
-   overflow:visible sur son carousel pour que la legend ne soit pas coupée */
-.directeurs .carousel-hid {
-    overflow: visible;
-}
-
-/* FIX: .slide-dir ne duplique plus toutes les propriétés de .slide-resp.
-   On réutilise .slide-resp et on surcharge seulement ce qui diffère. */
-.slide-dir {
+.directeurs {
     flex: 0 0 calc(50% - 10px);
     max-width: calc(50% - 10px);
     background: #ffffff;
@@ -410,32 +397,34 @@ legend {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     padding: 15px;
     transition: transform 0.3s ease;
-    margin: auto; /* FIX: centre la carte quand elle est seule dans le track */
+    margin: auto; 
 }
 
-.slide-dir:hover {
+.directeurs:hover {
     transform: translateY(-5px);
 }
 
-.slide-dir img {
+.directeurs img {
     width: 100%;
     height: 400px;
     object-fit: cover;
     border-radius: 20px;
 }
 
-.slide-dir p {
-    margin-top: 15px;
+.directeurs p {
+   margin-top: 15px;
+    font-size: 14px;
     font-weight: bold;
     color: rgb(22, 55, 103);
     font-size: larger;
+    text-align: center;
 }
 
-.slide-dir a {
+.directeurs a {
     text-decoration: none;
     color: rgb(22, 55, 103);
 }
 
-.slide-dir a:hover {
+.directeurs p:hover {
     color: #e60073;
 }
