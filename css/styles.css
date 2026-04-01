@@ -433,6 +433,92 @@ legend {
     color: #e60073;
 }
 
+/* ------- Page A PROPOS -------- */
+
+/* ------- Page A PROPOS -------- */
+
+#headApropos {
+    text-align: center;
+    color: rgb(22, 55, 103);
+    margin-bottom: 40px;
+    font-size: 26px;
+}
+
+#Maximilien,
+#Astrid,
+#Gabriel {
+    background-color: #f4f6fa;
+    border-left: 5px solid rgb(22, 55, 103);
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#Astrid {
+    flex-direction: row-reverse;
+}
+
+.tofApropos {
+    flex-shrink: 0;
+}
+
+.tofApropos img {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border: 3px solid rgb(22, 55, 103);
+}
+
+.presApropos {
+    flex: 1;
+    min-width: 200px;
+    text-align: justify;
+    line-height: 1.7;
+    color: #333;
+}
+
+.contactApropos {
+    flex-shrink: 0;
+    min-width: 180px;
+    background-color: rgb(22, 55, 103);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contactApropos h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding-bottom: 8px;
+}
+
+.contactApropos a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.3s;
+}
+
+.contactApropos a:hover {
+    opacity: 0.75;
+    text-decoration: underline;
+}
+
+.contactApropos p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+
 /* ------- MEDIA ------ */
 
 @media screen and (max-width: 768px) {
@@ -453,4 +539,23 @@ legend {
     .slide-resp {
         min-width: 250px;
     }
+
+     #Maximilien,
+    #Astrid,
+    #Gabriel {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactApropos {
+        width: 100%;
+    }
+
+    .tofApropos img {
+        width: 120px;
+        height: 120px;
+    }
 }
+
+
+/* SI VOUS TOUCHEZ AU CSS METTEZ VOS TRUCS DANS LES SECTIOS CORRESPONDANTES SVPPPPPP */
