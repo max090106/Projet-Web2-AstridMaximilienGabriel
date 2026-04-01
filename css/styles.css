@@ -136,6 +136,16 @@ ul>details {
     width: 100%;
 }
 
+.listFormation a {
+    color: rgb(22, 55, 103);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.listFormation a:hover {
+    color: #e60073;
+}
+
 /* ----- Page TEMOIGNAGES ------*/
 
 #temoignage h2 {
