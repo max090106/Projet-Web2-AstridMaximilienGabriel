@@ -15,7 +15,7 @@
             <fieldset class="directeurs">
                 <legend>Directeurs</legend>
                 <a href="Calendrier1.php?prof=AsmaGabis">
-                    <img src="../img/asmagabis.jpg" width="430" height="120">
+                    <img src="../img/asmagabis.png" width="430" height="120">
                 </a>
                 <a href="https://www.linkedin.com/in/asma-gabis-1ab439244/">
                     <p>Asma Gabis : Directrice du département</p>
