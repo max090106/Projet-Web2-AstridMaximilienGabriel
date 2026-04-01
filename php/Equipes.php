@@ -28,7 +28,7 @@
                 <div class="carousel-hid">
                     <div class="track">
                         <div class="slide-resp">
-                            <a href="Calendrier1.php">
+                            <a href="Calendrier1.php?prof=YoussefAitElMahjoub">
                                 <img src="../img/youssef.jpg" width="430" height="120">
                             </a>
                             <a href="https://www.linkedin.com/in/youssef-ait-el-mahjoub-3b488aab/?originalSubdomain=fr">
@@ -36,7 +36,7 @@
                             </a>
                         </div>
                         <div class="slide-resp">
-                            <a href="Calendrier1.php">
+                            <a href="Calendrier1.php?prof=BoussadAitSalem">
                                 <img src="../img/boussad.jpg" width="430" height="120">
                             </a>
                             <a href="https://www.linkedin.com/in/boussad-ait-salem-09947b47/">
@@ -44,7 +44,7 @@
                             </a>
                         </div>
                         <div class="slide-resp">
-                            <a href="Calendrier1.php">
+                            <a href="Calendrier1.php?prof=IlyesJenhani">
                                 <img src="../img/ilyes.jpg" width="430" height="120">
                             </a>
                             <a href="https://www.linkedin.com/in/ilyes-jenhani-87176124/?originalSubdomain=qa">
@@ -52,7 +52,7 @@
                             </a>
                         </div>
                         <div class="slide-resp">
-                            <a href="Calendrier1.php">
+                            <a href="Calendrier1.php?prof=FatenChaiebChakchouk">
                                 <img src="../img/faten.jpg" width="430" height="120">
                             </a>
                             <a href="https://www.linkedin.com/in/faten-chaieb-77b5a147/?originalSubdomain=fr">
@@ -60,7 +60,7 @@
                             </a>
                         </div>
                         <div class="slide-resp">
-                            <a href="Calendrier1.php">
+                            <a href="Calendrier1.php?prof=RalphBouNader">
                                 <img src="../img/ralph.jpg" width="430" height="120">
                             </a>
                             <a href="https://www.linkedin.com/in/ralph-bou-nader-077783396/?originalSubdomain=fr">
@@ -81,7 +81,7 @@
                 <div class="carousel-hid">
                     <div class="track">
                         <div class="slide-resp">
-                            <a href="Calendrier1.php">
+                            <a href="Calendrier1.php?prof=MohamedHamidi">
                                 <img src="../img/mohamed.jpg" width="430" height="120">
                             </a>
                             <a href="https://www.linkedin.com/in/mohamed-hamidi-27743938/?originalSubdomain=fr">
@@ -89,7 +89,7 @@
                             </a>
                         </div>
                         <div class="slide-resp">
-                            <a href="Calendrier1.php">
+                            <a href="Calendrier1.php?prof=MarouaTikat">
                                 <img src="../img/tikat.jpg" width="430" height="120">
                             </a>
                             <a href="https://www.linkedin.com/in/maroua-tikat/?originalSubdomain=fr">
@@ -97,7 +97,7 @@
                             </a>
                         </div>
                         <div class="slide-resp">
-                            <a href="Calendrier1.php">
+                            <a href="Calendrier1.php?prof=YoussefAitElMahjoub">
                                 <img src="../img/ameur.jpg" width="430" height="120">
                             </a>
                             <a href="https://www.linkedin.com/in/yameur/?originalSubdomain=fr">
@@ -105,7 +105,7 @@
                             </a>
                         </div>
                         <div class="slide-resp">
-                            <a href="Calendrier1.php">
+                            <a href="Calendrier1.php?prof=CherifaBenKhelil">
                                 <img src="../img/cherifa.jpg" width="430" height="120">
                             </a>
                             <a href="https://www.linkedin.com/in/cherifa-ben-khelil-64611aab/?originalSubdomain=fr">
@@ -113,7 +113,7 @@
                             </a>
                         </div>
                         <div class="slide-resp">
-                            <a href="Calendrier1.php">
+                            <a href="Calendrier1.php?prof=IkhlasMastour">
                                 <img src="../img/ikhals.jpg" width="430" height="120">
                             </a>
                             <a href="https://www.linkedin.com/in/ikhlas-mastour-a1ba4415a/?originalSubdomain=fr">
@@ -121,7 +121,7 @@
                             </a>
                         </div>
                         <div class="slide-resp">
-                            <a href="Calendrier1.php">
+                            <a href="Calendrier1.php?prof=RalphBouNader">
                                 <img src="../img/ralph.jpg" width="430" height="120">
                             </a>
                             <a href="https://www.linkedin.com/in/ralph-bou-nader-077783396/?originalSubdomain=fr">
@@ -129,7 +129,7 @@
                             </a>
                         </div>
                         <div class="slide-resp">
-                            <a href="Calendrier1.php">
+                            <a href="Calendrier1.php?prof=LenaTrebaul">
                                 <img src="../img/lena.jpg" width="430" height="120">
                             </a>
                             <a href="https://www.linkedin.com/in/lena-trebaul-75711b57/?originalSubdomain=fr">
@@ -137,7 +137,7 @@
                             </a>
                         </div>
                         <div class="slide-resp">
-                            <a href="Calendrier1.php">
+                            <a href="Calendrier1.php?prof=">
                                 <img src="../img/rado.jpg" width="430" height="120">
                             </a>
                             <a href="https://www.linkedin.com/in/radoraktn/?originalSubdomain=fr">
@@ -145,7 +145,7 @@
                             </a>
                         </div>
                         <div class="slide-resp">
-                            <a href="Calendrier1.php">
+                            <a href="Calendrier1.php?prof=MouradKmimech">
                                 <img src="../img/mourad.jpg" width="430" height="120">
                             </a>
                             <a href="https://www.linkedin.com/in/mourad-kmimech-17ab4217/?originalSubdomain=fr">
