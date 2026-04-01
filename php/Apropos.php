@@ -18,7 +18,8 @@
                 <img src="../img/img-bidon1.webp">
             </div>
             <div class="presApropos">
-                <p>Bonjour, je m'appelle Maximilien, j'ai 20 ans et je suis actuellement en 1re année à l'Efrei, une
+                <p>Maximilien : Je me suis occupé de faire les header et footer de html ainsi que la création des pages html, j'ai aussi fait une grande partie du css et je me suis occupé entièrement du carroussel des professeurs. J'ai créer les phpheader et footer.
+                    Bonjour, je m'appelle Maximilien, j'ai 20 ans et je suis actuellement en 1re année à l'Efrei, une
                     école
                     d'ingénieurs spécialisée en informatique à Paris. <br>
                     Au cours de ma formation, j'ai eu l'occasion de me familiariser avec plusieurs domaines du
@@ -44,24 +45,13 @@
                 <img src="../img/img-bidon1.webp">
             </div>
             <div class="presApropos">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                laborum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet
-                quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo, eget consectetur magna
-                tincidunt vel.
-                Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis molestie dictum
-                semper, felis arcu laoreet elit, vel aliquet leo urna nec magna. Aliquam erat volutpat nam dui mi,
-                tincidunt quis, accumsan porttitor.
+                Astrid : Je me suis occupé du passage de html en php, aider sur le php du calendrier, fais un grande partie du css et fais le html de l'accueil.
             </div>
             <div class="contactApropos">
                 <h3>Me contacter : </h3>
-                <a href="">Linkedin</a>
-                <p>XX XX XX XX XX</p>
-                <p>xxxxxxx@xxxxxxx.com</p>
+                <a href="https://www.linkedin.com/in/astrid-baert-a0a86532a/">Linkedin</a>
+                <p>06 86 46 91 66</p>
+                <p>astrid.baert@gmail.com</p>
             </div>
         </section>
         <section id="Gabriel">
@@ -69,24 +59,13 @@
                 <img src="../img/img-bidon1.webp">
             </div>
             <div class="presApropos">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                laborum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet
-                quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo, eget consectetur magna
-                tincidunt vel.
-                Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis molestie dictum
-                semper, felis arcu laoreet elit, vel aliquet leo urna nec magna. Aliquam erat volutpat nam dui mi,
-                tincidunt quis, accumsan porttitor.
+                Gabriel : Je me suis occuper de la partie sql du php ainsi que du javascript du claendrier, et de la recherche des professeur en html ainsi que du html  des 
             </div>
             <div class="contactApropos">
                 <h3>Me contacter : </h3>
-                <a href="">Linkedin</a>
-                <p>XX XX XX XX XX</p>
-                <p>xxxxxxx@xxxxxxx.com</p>
+                <a href="https://www.linkedin.com/in/gabriel-lallier-261763252/">Linkedin</a>
+                <p>068089767</p>
+                <p>gabriellallier05@gmail.com</p>
             </div>
         </section>
     </main>
