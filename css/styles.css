@@ -433,8 +433,8 @@ legend {
     color: #e60073;
 }
 
-
 /* ------- MEDIA ------ */
+
 @media screen and (max-width: 768px) {
     nav a {
         display: block;
