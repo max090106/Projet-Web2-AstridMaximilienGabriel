@@ -170,12 +170,13 @@ ul>details {
 #histoire1 p {
     text-align: justify;
     margin: 20px;
+    font-size: 18px;
 }
 
 #histoire1 a img,
 #histoire2 a img {
     height: auto;
-    width: 500px;
+    width: 250px;
     border-radius: 8px;
 }
 
@@ -187,6 +188,17 @@ ul>details {
 #histoire2 {
     flex-direction: row-reverse;
 }
+
+.julien{
+    display: block;
+}
+
+h3{
+    text-align: center;
+    color: rgb(22, 55, 103);
+    margin-bottom: 100px;
+}
+
 
 /* ----- Page CONTACT ------*/
 

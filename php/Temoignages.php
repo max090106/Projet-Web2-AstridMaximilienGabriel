@@ -15,16 +15,13 @@
         <section id="temoignage">
             <h2>Témoignages</h2>
             <div class="histoire" id="histoire1">
-                <p>🎓 Témoignage étudiant — Lucas Mercier, 3ème année </br>
-                    « Intégrer l'EFREI a été l'une des meilleures décisions de ma vie. Dès la première année, on est
-                    plongés dans des projets concrets qui nous préparent vraiment au monde professionnel. Les cours sont
-                    exigeants, mais les profs sont toujours disponibles pour nous accompagner. J'ai eu la chance de
-                    faire un hackathon organisé par l'école où j'ai pu travailler avec des étudiants d'autres promos —
-                    c'est ce genre d'expériences qui font vraiment la différence. Le campus est super bien équipé, et la
-                    vie associative est incroyable. Je me sens vraiment à ma place ici, et je sais que je ressortirai
-                    avec des compétences solides et un réseau qui m'ouvrira des portes. »</p>
-                <a>
-                    <img src="../img/temoignage1.png" width="430" height="120">
+                <div id=julien>
+                    <h3>Témoignage étudiant — Julien Goutelle, 1ère année de Bachelore </h3>
+                    <p> « À l’Efrei, les cours d’informatique sont exactement ce que j’attendais : du code, des projets, et une vraie immersion dans le monde tech. Dès la première année, on manipule plusieurs langages (Python, C, Java…), on crée des programmes, et on résout des problèmes concrets. Les profs nous poussent à comprendre par nous-mêmes, sans nous surcharger de théorie inutile.
+Ce que j’aime ? Les projets variés, comme développer un site web ou travailler sur des défis en cybersécurité. L’ambiance est collaborative : entre étudiants, on s’entraide, on partage des astuces, et on avance ensemble. Bref, ici, on apprend en faisant — et c’est bien plus motivant que des cours magistraux, petit plus pour la compote du crous! :D »</p>
+                </div>
+                <a href = "https://www.linkedin.com/in/julien-goutelle-aa0341373/">
+                    <img src="../img/etudiant_trop_bg.png">
                 </a>
             </div>
             <div class="histoire" id="histoire2">
