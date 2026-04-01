@@ -15,7 +15,6 @@ $pdo->exec("
         UNIQUE KEY uniq_rdv (professeur, creneau, date_rdv)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ");
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $idEtudiant = trim($_POST['id_etudiant'] ?? '');
     $professeur = trim($_POST['professeur']  ?? '');
