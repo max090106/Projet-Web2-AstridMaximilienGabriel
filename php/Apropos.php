@@ -15,7 +15,7 @@
         <h2 id="headApropos">Qui sommes nous?</h1>
         <section id="Maximilien">
             <div class="tofApropos">
-                <img src="../img/img-bidon1.webp">
+                <img src="../img/mec-random1.png">
             </div>
             <div class="presApropos">
                 <p>Maximilien : Je me suis occupé de faire les header et footer de html ainsi que la création des pages html, j'ai aussi fait une grande partie du css et je me suis occupé entièrement du carroussel des professeurs. J'ai créer les phpheader et footer.
@@ -42,7 +42,7 @@
         </section>
         <section id="Astrid">
             <div class="tofApropos">
-                <img src="../img/img-bidon1.webp">
+                <img src="../img/meuf-random1.png">
             </div>
             <div class="presApropos">
                 Astrid : Je me suis occupé du passage de html en php, aider sur le php du calendrier, fais un grande partie du css et fais le html de l'accueil.
@@ -56,7 +56,7 @@
         </section>
         <section id="Gabriel">
             <div class="tofApropos">
-                <img src="../img/img-bidon1.webp">
+                <img src="../img/mec-random2.png">
             </div>
             <div class="presApropos">
                 Gabriel : Je me suis occuper de la partie sql du php ainsi que du javascript du claendrier, et de la recherche des professeur en html ainsi que du html  des 
