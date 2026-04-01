@@ -24,7 +24,7 @@
                     vie associative est incroyable. Je me sens vraiment à ma place ici, et je sais que je ressortirai
                     avec des compétences solides et un réseau qui m'ouvrira des portes. »</p>
                 <a>
-                    <img src="../img/img-bidon1.webp" width="430" height="120">
+                    <img src="../img/temoignage1.png" width="430" height="120">
                 </a>
             </div>
             <div class="histoire" id="histoire2">
@@ -37,7 +37,7 @@
                     plus loin que le programme. L'EFREI nous donne, à nous enseignants, les outils et la liberté pour
                     faire notre métier avec passion. C'est rare, et c'est précieux. »</p>
                 <a>
-                    <img src="../img/img-bidon1.webp" width="430" height="120">
+                    <img src="../img/temoignage2.png" width="430" height="120">
                 </a>
             </div>
         </section>
