@@ -37,7 +37,7 @@ if(isset($_POST['connexion'])){
 </head>
 
 <body>
-    <header>
+    <header id="header_connexion">
       <h1>
           <img src="../img/logo-efrei.png" id="logo" width="430" height="120">
           DEPARTEMENT INFORMATIQUE DE L'EFREI
@@ -45,11 +45,18 @@ if(isset($_POST['connexion'])){
     </header>
     <main>
       <form action="connexion.php" method="post">
-        Id de connexion: <input type="text" name="pseudo" />
-        <br />
-        Mot de passe: <input type="password" name="mdp" />
-        <br />
-        <input type="submit" name="connexion" value="Connexion" />
+        <fieldset id="connexion">
+          <legend>Connexion</legend>
+          <div id="pseudo_grp">
+            <label id="pseudo" for="pseudo">Pseudo : </label>
+            <input type="text" name="pseudo" />
+          </div>
+          <div id="mdp_grp">
+            <label id ="mdp" for="mdp">Mot de passe : </label>
+            <input type="password" name="mdp" />
+          </div>
+          <input type="submit" name="connexion" value="Connexion" />
+        </fieldset>
       </form>
     </main>
     <?php include ("footer.php"); ?>
