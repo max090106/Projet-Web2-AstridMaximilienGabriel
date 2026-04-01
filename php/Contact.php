@@ -12,8 +12,7 @@
 <body>
     <?php include ("header.php"); ?>
     <main>
-        <form action="#" method="post" form method="post" name="Contact" action="#" class="box" id="ContactId"
-            onsubmit="return false">
+        <form method="post" name="Contact" class="box" id="ContactId" onsubmit="return false">
             <fieldset id="Infos">
                 <legend>Vos informations</legend>
 
