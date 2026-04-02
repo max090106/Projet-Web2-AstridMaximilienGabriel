@@ -15,3 +15,13 @@ CREATE TABLE IF NOT EXISTS reservations (
     created_at  TIMESTAMP    DEFAULT CURRENT_TIMESTAMP,
     UNIQUE KEY uniq_rdv (professeur, creneau, date_rdv)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE membres (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    pseudo VARCHAR(50) NOT NULL UNIQUE,
+    mdp VARCHAR(255) NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO membres (pseudo, mdp) VALUES ('testuser', 'monmotdepasse');
