@@ -49,87 +49,7 @@ $reservations = $stmt->fetchAll();
     <title>Mes réservations — <?= htmlspecialchars($pseudo) ?></title>
     <link rel="stylesheet" href="../css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        #mes-resa-wrapper {
-            max-width: 900px;
-            margin: 40px auto 60px auto;
-            padding: 0 20px;
-        }
-
-        #mes-resa-wrapper h2 {
-            color: rgb(22,55,103);
-            text-align: center;
-            font-size: 1.5em;
-            margin-bottom: 8px;
-        }
-
-        #mes-resa-wrapper .sous-titre {
-            text-align: center;
-            color: #666;
-            font-size: .95em;
-            margin-bottom: 28px;
-        }
-
-        /* ── Badge rôle ── */
-        .badge {
-            display: inline-block;
-            padding: 4px 14px;
-            border-radius: 20px;
-            font-size: .82em;
-            font-weight: bold;
-            letter-spacing: .5px;
-            text-transform: uppercase;
-            margin-left: 10px;
-            vertical-align: middle;
-        }
-        .badge-prof     { background: #fff0d6; color: #b26a00; border: 1px solid #f0b429; }
-        .badge-etudiant { background: #e8f0fe; color: rgb(22,55,103); border: 1px solid rgb(22,55,103); }
-
-        /* ── Table ── */
-        .resa-table {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: .92em;
-            box-shadow: 0 2px 12px rgba(0,0,0,.1);
-            border-radius: 10px;
-            overflow: hidden;
-        }
-        .resa-table thead {
-            background: rgb(22,55,103);
-            color: #fff;
-        }
-        .resa-table th, .resa-table td {
-            padding: 13px 18px;
-            text-align: left;
-        }
-        .resa-table tbody tr:nth-child(even) { background: #f4f6fa; }
-        .resa-table tbody tr:hover { background: #e9eef7; transition: background .15s; }
-
-        .no-resa {
-            text-align: center;
-            color: #999;
-            font-style: italic;
-            padding: 30px;
-        }
-
-        /* ── Bouton retour ── */
-        .btn-retour {
-            display: inline-block;
-            margin-bottom: 28px;
-            padding: 9px 20px;
-            background: #e9eef7;
-            color: rgb(22,55,103);
-            border: 1px solid rgb(22,55,103);
-            border-radius: 8px;
-            text-decoration: none;
-            font-size: .9em;
-            transition: background .2s;
-        }
-        .btn-retour:hover { background: rgb(22,55,103); color: #fff; }
-
-        /* ── Date bien formatée ── */
-        .date-cell { white-space: nowrap; }
-    </style>
+    <style href="../css/reservation.css" rel="stylesheet"></style>
 </head>
 
 <body>
@@ -142,7 +62,7 @@ $reservations = $stmt->fetchAll();
         <?php if ($role === 'prof'): ?>
 
             <h2>
-                🗓️ Mes heures de permanence
+                Mes heures de permanence
                 <span class="badge badge-prof">Professeur</span>
             </h2>
             <p class="sous-titre">
@@ -180,7 +100,7 @@ $reservations = $stmt->fetchAll();
         <?php else: ?>
 
             <h2>
-                📚 Mes cours réservés
+                Mes cours réservés
                 <span class="badge badge-etudiant">Étudiant</span>
             </h2>
             <p class="sous-titre">
