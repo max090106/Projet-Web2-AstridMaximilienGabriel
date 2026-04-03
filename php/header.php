@@ -12,6 +12,7 @@
         <a href="Temoignages.php">Témoignages</a>
         <a href="Apropos.php">A propos</a>
         <a href="Equipes.php">Equipes</a>
+        <a href="MesReservations.php">Mes réservations</a>
     </nav>
 
     <?php if(isset($_SESSION['pseudo'])): ?>

@@ -1,6 +1,13 @@
 <?php
+session_start();
 header('Content-Type: application/json');
 require_once 'db.php';
+
+// Vérifie que l'utilisateur est bien connecté
+if (!isset($_SESSION['pseudo'])) {
+    echo json_encode(['success' => false, 'message' => 'Vous devez être connecté pour réserver.']);
+    exit;
+}
 
 $pdo = getDB();
 
@@ -15,13 +22,15 @@ $pdo->exec("
         UNIQUE KEY uniq_rdv (professeur, creneau, date_rdv)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ");
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $idEtudiant = trim($_POST['id_etudiant'] ?? '');
-    $professeur = trim($_POST['professeur']  ?? '');
-    $creneau    = trim($_POST['creneau']     ?? '');
-    $dateRdv    = trim($_POST['date_rdv']    ?? '');
 
-    if (!$idEtudiant || !$professeur || !$creneau || !$dateRdv) {
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // L'identifiant de l'étudiant vient directement de la session
+    $idEtudiant = $_SESSION['pseudo'];
+    $professeur = trim($_POST['professeur'] ?? '');
+    $creneau    = trim($_POST['creneau']    ?? '');
+    $dateRdv    = trim($_POST['date_rdv']   ?? '');
+
+    if (!$professeur || !$creneau || !$dateRdv) {
         echo json_encode(['success' => false, 'message' => 'Tous les champs sont obligatoires.']);
         exit;
     }
