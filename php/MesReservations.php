@@ -47,17 +47,15 @@ $reservations = $stmt->fetchAll();
 <head>
     <meta charset="UTF-8">
     <title>Mes réservations — <?= htmlspecialchars($pseudo) ?></title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/reservation.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style href="../css/reservation.css" rel="stylesheet"></style>
+
 </head>
 
 <body>
     <?php include("header.php"); ?>
 
     <div id="mes-resa-wrapper">
-
-        <a href="Accueil.php" class="btn-retour">← Retour à l'accueil</a>
 
         <?php if ($role === 'prof'): ?>
 

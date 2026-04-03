@@ -103,7 +103,7 @@ $reservations = $stmt->fetchAll();
             cursor: not-allowed;
             font-weight: bold;
         }
-        .hour-slot.booked::after { content: " 🔒"; }
+        .hour-slot.booked::after { content: " "; }
 
         #prof-title {
             text-align: center;
@@ -132,9 +132,9 @@ $reservations = $stmt->fetchAll();
 <body>
     <?php include("header.php"); ?>
 
-    <h2 id="prof-title">📅 Prise de rendez-vous — <?= $prof ?></h2>
+    <h2 id="prof-title">Prise de rendez-vous — <?= $prof ?></h2>
 
-    <a href="MesReservations.php" id="mes-resa-link">📋 Voir mes réservations</a>
+    <a href="MesReservations.php" id="mes-resa-link">Voir mes réservations</a>
 
     <div class="calendar">
         <div class="calendar-header">
@@ -162,9 +162,9 @@ $reservations = $stmt->fetchAll();
             <h3>Confirmer la réservation</h3>
             <p id="modal-info"></p>
             <p>Réservation au nom de :</p>
-            <span class="user-badge">👤 <?= htmlspecialchars($pseudoUser) ?></span>
+            <span class="user-badge"> <?= htmlspecialchars($pseudoUser) ?></span>
             <div class="modal-btns">
-                <button class="btn-confirm" onclick="confirmerReservation()">✅ Confirmer</button>
+                <button class="btn-confirm" onclick="confirmerReservation()">Confirmer</button>
                 <button class="btn-cancel"  onclick="fermerModal()">Annuler</button>
             </div>
             <div id="modal-msg"></div>
@@ -297,7 +297,7 @@ $reservations = $stmt->fetchAll();
                 .then(r => r.json())
                 .then(data => {
                     if (data.success) {
-                        msgEl.textContent = '✅ ' + data.message;
+                        msgEl.textContent = data.message;
                         msgEl.className   = 'ok';
 
                         if (!reservationsExistantes[dateStr]) reservationsExistantes[dateStr] = [];
@@ -306,12 +306,12 @@ $reservations = $stmt->fetchAll();
                         renderHourCalendar(pendingDay);
                         setTimeout(fermerModal, 1500);
                     } else {
-                        msgEl.textContent = '❌ ' + data.message;
+                        msgEl.textContent = data.message;
                         msgEl.className   = 'err';
                     }
                 })
                 .catch(() => {
-                    msgEl.textContent = '❌ Erreur réseau, réessayez.';
+                    msgEl.textContent = 'Erreur réseau, réessayez.';
                     msgEl.className   = 'err';
                 });
         }

@@ -125,3 +125,93 @@ nav a:hover {
   background-color: #fff;
   text-align: center;
 }
+
+#modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.45);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+#modal-overlay.active { display: flex; }
+
+#modal-box {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px 35px;
+    width: 360px;
+    box-shadow: 0 8px 30px rgba(0,0,0,.25);
+    text-align: center;
+}
+#modal-box h3 { color: rgb(22,55,103); margin-bottom: 8px; font-size: 1.1em; }
+#modal-box p  { color: #555; font-size: .9em; margin-bottom: 12px; }
+#modal-box .user-badge {
+    display: inline-block;
+    background: #e8f0fe;
+    color: rgb(22,55,103);
+    border: 1px solid rgb(22,55,103);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: .88em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.modal-btns { display: flex; gap: 12px; justify-content: center; margin-top: 8px; }
+
+.btn-confirm {
+    background: rgb(22,55,103);
+    color: #fff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: .95em;
+    transition: background .2s;
+}
+.btn-confirm:hover { background: #e60073; }
+
+.btn-cancel {
+    background: #e9eef7;
+    color: rgb(22,55,103);
+    border: 1px solid rgb(22,55,103);
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: .95em;
+}
+#modal-msg { margin-top: 14px; font-size: .9em; min-height: 20px; }
+#modal-msg.ok  { color: green; }
+#modal-msg.err { color: #c0392b; }
+
+.hour-slot.booked {
+    background: #fde8e8 !important;
+    color: #c0392b !important;
+    cursor: not-allowed;
+    font-weight: bold;
+}
+.hour-slot.booked::after { content: " "; }
+
+#prof-title {
+    text-align: center;
+    margin: 20px 0 10px 0;
+    color: rgb(22,55,103);
+    font-size: 1.4em;
+}
+
+#mes-resa-link {
+    display: block;
+    text-align: center;
+    margin: 0 auto 24px auto;
+    width: fit-content;
+    padding: 10px 24px;
+    background: rgb(22,55,103);
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: .95em;
+    transition: background .2s;
+}
+#mes-resa-link:hover { background: #e60073; }
